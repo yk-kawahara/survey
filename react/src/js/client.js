@@ -1,10 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Body from "./Body";
+
 
 class Layout extends React.Component {
   render() {
     return (
-      <h1>Welcome!</h1>
+      <Body />
     );
   }
 }
